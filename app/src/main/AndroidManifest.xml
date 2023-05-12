@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iqbal.WisataMalang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_iconmalang"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_iconmalang"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wisata">
+        <activity android:name="com.iqbal.WisataMalang.About"></activity>
+        <activity android:name="com.iqbal.WisataMalang.Kampoong" />
+        <activity android:name="com.iqbal.WisataMalang.Ronde" />
+        <activity android:name="com.iqbal.WisataMalang.CandiJago" />
+        <activity android:name="com.iqbal.WisataMalang.Gereja" />
+        <activity android:name="com.iqbal.WisataMalang.Masjidjami" />
+        <activity android:name="com.iqbal.WisataMalang.WisataReligi" />
+        <activity android:name="com.iqbal.WisataMalang.WisataKuliner" />
+        <activity android:name="com.iqbal.WisataMalang.angkut" />
+        <activity android:name="com.iqbal.WisataMalang.greenpark" />
+        <activity android:name="com.iqbal.WisataMalang.WisataEdukasi" />
+        <activity android:name="com.iqbal.WisataMalang.tigawarna" />
+        <activity android:name="com.iqbal.WisataMalang.AlamMayang" />
+        <activity android:name="com.iqbal.WisataMalang.AirTerjun" />
+        <activity android:name="com.iqbal.WisataMalang.WisataAlam" />
+        <activity android:name="com.iqbal.WisataMalang.Bromo" />
+        <activity android:name="com.iqbal.WisataMalang.MenuUtama" />
+        <activity android:name="com.iqbal.WisataMalang.jatimpark"/>
+        <activity android:name="com.iqbal.WisataMalang.brawijaya"/>
+        <activity android:name="com.iqbal.WisataMalang.depot"/>
+        <activity android:name="com.iqbal.WisataMalang.Klenteng"/>
+        <activity android:name="com.iqbal.WisataMalang.orem"/>
+        <activity android:name="com.iqbal.WisataMalang.president"/>
+        <activity android:name="com.iqbal.WisataMalang.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
